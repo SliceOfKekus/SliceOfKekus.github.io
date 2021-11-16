@@ -4,11 +4,9 @@ let isOpen = false;
 menuButton.addEventListener('click', () => {
     if (!isOpen) {
         menuButton.classList.add('open');
-        //navigationMenu.classList.add('active');
         isOpen = true;
     } else {
         menuButton.classList.remove('open');
-        //navigationMenu.classList.remove('active');
         isOpen = false;
     }
 });

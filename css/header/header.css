@@ -35,7 +35,7 @@
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(173, 172, 173, .68);
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .menu_button__hamburger::before,
@@ -47,7 +47,7 @@
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(173, 172, 173, .68);
-    transition: all 0.8s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .menu_button__hamburger::before {
@@ -84,13 +84,12 @@
 
 .site_logo>img {
     border-radius: 20px;
-    border-bottom: 5px solid red;
+    border-bottom: 5px solid purple;
 }
 
 .navigation_menu {
-    justify-content: center;
+    justify-self: flex-start;
     display: flex;
-    padding-bottom: 40px;
 }
 
 .navigation_menu li {
@@ -98,24 +97,29 @@
 }
 
 .navigation_menu li>a {
+    transition: all 0.5s;
     text-decoration: none;
     margin-left: 20px;
     font-size: 34px;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 768px) {
     .menu_button {
         display: none;
     }
     .header_top_area {
-        justify-content: end;
+        justify-content: center;
     }
     .navigation_menu {
         display: inline-flex;
     }
+    .navigation_menu li>a:hover {
+        color: purple;
+        transition: all 0.5s;
+    }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
     .navigation_menu {
         display: none;
     }
