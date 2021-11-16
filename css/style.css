@@ -17,6 +17,8 @@ body {
     align-items: center;
 }
 
+
+/*
 .menu_button {
     border-radius: 20px;
     background-color: black;
@@ -58,11 +60,7 @@ body {
     transform: rotate(-45deg);
     position: absolute;
 }
-
-.site_name {
-    display: inline-flex;
-    margin: 5px;
-}
+*/
 
 main {
     background-color: darkblue;
