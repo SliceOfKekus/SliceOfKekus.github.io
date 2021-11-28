@@ -110,6 +110,11 @@ h6 {
 }
 
 @media (max-width: 769px) {
+    .main {
+        border: 5px solid purple;
+        border-radius: 15px;
+        margin: 10px 10px;
+    }
     body {
         background-color: rgb(253, 222, 240);
     }
@@ -121,9 +126,7 @@ h6 {
         border-bottom: 10px solid purple;
         border-left: 10px solid purple;
         border-right: 10px solid purple;
-        border-radius: 15px;
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
+        border-radius: 30px;
     }
     .wrapper {
         grid-template-columns: auto;
