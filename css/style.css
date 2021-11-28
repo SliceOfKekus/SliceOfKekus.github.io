@@ -14,7 +14,6 @@ body {
     height: 100%;
     max-width: 1180px;
     margin: auto;
-    padding-top: 146px;
     background-color: grey;
     border: 6px solid transparent;
 }
@@ -47,13 +46,10 @@ h6 {
 }
 
 .picture_container img {
-    width: 100%;
     border: 6px solid transparent;
     border-image: linear-gradient(to right top, black 30%, transparent 52%, transparent 52%, white 100%);
     border-image-slice: 1;
 }
-
-.biography {}
 
 .biography section {
     padding: 0px 25px;
@@ -99,6 +95,9 @@ h6 {
 }
 
 @media (max-width: 769px) {
+    .picture_container img {
+        width: 100%;
+    }
     .wrapper {
         grid-template-columns: auto;
     }

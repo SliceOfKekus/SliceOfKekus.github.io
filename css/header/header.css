@@ -1,5 +1,6 @@
 .container_header {
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
     background-color: black;
     border-bottom: 5px solid purple;
