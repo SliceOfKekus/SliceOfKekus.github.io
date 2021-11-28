@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    min-height: calc(100vh - 83px - 119px);
+    min-height: calc(100vh - 83px - 119px - 35px);
     max-width: 1180px;
     margin: 10px auto;
     /*background-color: #000;*/
