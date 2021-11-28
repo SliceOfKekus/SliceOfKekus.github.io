@@ -136,6 +136,12 @@
 }
 
 @media (max-width: 768px) {
+    .container_header {
+        border: 0;
+        border-bottom: 5px solid purple;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
     .navigation_menu {
         padding-top: 119px;
         padding-bottom: 5px;
@@ -149,7 +155,7 @@
         width: 100%;
         background-color: rgb(253, 222, 240);
         border-bottom: 5px solid purple;
-        transform: translateY(-320px);
+        transform: translateY(-500px);
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
         transition: all 0.3s;

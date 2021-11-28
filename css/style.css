@@ -118,6 +118,9 @@ h6 {
     }
     .footer {
         border: 5px solid purple;
+        border-bottom: 10px solid purple;
+        border-left: 10px solid purple;
+        border-right: 10px solid purple;
         border-radius: 15px;
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
