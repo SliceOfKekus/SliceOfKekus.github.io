@@ -47,6 +47,7 @@ h6 {
 }
 
 .picture_container img {
+    width: 100%;
     border: 6px solid transparent;
     border-image: linear-gradient(to right top, black 30%, transparent 52%, transparent 52%, white 100%);
     border-image-slice: 1;
