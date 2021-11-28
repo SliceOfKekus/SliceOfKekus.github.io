@@ -119,6 +119,8 @@ h6 {
     .footer {
         border: 5px solid purple;
         border-radius: 15px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
     }
     .wrapper {
         grid-template-columns: auto;
