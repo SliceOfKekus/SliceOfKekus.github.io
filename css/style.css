@@ -7,7 +7,7 @@
 
 body {
     background-color: rgb(104, 104, 104);
-    margin: 0;
+    margin: 5px 5px;
 }
 
 .main {
@@ -27,7 +27,7 @@ h6 {
 }
 
 .wrapper {
-    padding: 0px 27px;
+    padding: 10px 27px;
     display: grid;
     grid-template-columns: min-content auto;
     column-gap: 10px;
@@ -47,7 +47,7 @@ h6 {
 
 .picture_container img {
     border: 6px solid transparent;
-    border-image: linear-gradient(to right top, white 10%, transparent 50%, transparent 50%, white 100%);
+    border-image: linear-gradient(to right top, rgb(104, 104, 104) 10%, transparent 50%, transparent 50%, rgb(104, 104, 104) 100%);
     border-image-slice: 1;
 }
 
@@ -117,6 +117,7 @@ h6 {
     }
     body {
         background-color: rgb(253, 222, 240);
+        margin: 0;
     }
     .picture_container img {
         width: 100%;
