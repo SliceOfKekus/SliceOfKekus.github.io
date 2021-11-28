@@ -2,10 +2,16 @@
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: black;
-    border-bottom: 5px solid purple;
-    border-bottom-left-radius: 15px;
+    /*background-color: black;*/
+    background-color: rgb(253, 222, 240);
+    /*border: 2px solid purple;*/
+    border-radius: 20px;
+    border: 5px solid purple;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    /*border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    */
 }
 
 .header {
@@ -14,6 +20,7 @@
 }
 
 .header_top_area {
+    color: #8d8d8d;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,7 +39,8 @@
     border: solid 4px white;
     border-radius: 12px;
     box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
-    background-color: black;
+    /*background-color: black;*/
+    background-color: rgb(253, 222, 240);
     margin: 20px;
 }
 
@@ -106,6 +114,7 @@
 .navigation_menu li>a {
     transition: all 0.5s;
     text-decoration: none;
+    color: #8d8d8d;
     margin-left: 20px;
     font-size: 34px;
 }
@@ -137,9 +146,8 @@
         left: 0;
         right: 0;
         height: 320px;
-        width: 100vw;
-        background-color: black;
-        color: red;
+        width: 100%;
+        background-color: rgb(253, 222, 240);
         border-bottom: 5px solid purple;
         transform: translateY(-320px);
         border-bottom-left-radius: 30px;

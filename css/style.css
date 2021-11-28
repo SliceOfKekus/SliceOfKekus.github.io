@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    color: #8d8d8d;
 }
 
 body {
-    background-color: black;
+    background-color: rgb(104, 104, 104);
     margin: 0;
 }
 
@@ -14,8 +14,8 @@ body {
     height: 100%;
     max-width: 1180px;
     margin: auto;
-    background-color: grey;
-    border: 6px solid transparent;
+    /*background-color: #000;*/
+    background-color: rgb(253, 222, 240);
 }
 
 .main h1,
@@ -47,7 +47,7 @@ h6 {
 
 .picture_container img {
     border: 6px solid transparent;
-    border-image: linear-gradient(to right top, black 30%, transparent 52%, transparent 52%, white 100%);
+    border-image: linear-gradient(to right top, white 10%, transparent 50%, transparent 50%, white 100%);
     border-image-slice: 1;
 }
 
@@ -81,7 +81,7 @@ h6 {
 }
 
 .footer {
-    background-color: saddlebrown;
+    background-color: rgb(253, 222, 240);
     text-align: center;
 }
 
@@ -94,9 +94,31 @@ h6 {
     padding: 0px 3px;
 }
 
+@media (min-width: 769px) {
+    .main {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px 0;
+        border: 6px solid transparent;
+        border-color: purple;
+        border-radius: 20px;
+    }
+    .footer {
+        border: 5px solid purple;
+        border-radius: 15px;
+    }
+}
+
 @media (max-width: 769px) {
+    body {
+        background-color: rgb(253, 222, 240);
+    }
     .picture_container img {
         width: 100%;
+    }
+    .footer {
+        border: 5px solid purple;
+        border-radius: 15px;
     }
     .wrapper {
         grid-template-columns: auto;
