@@ -2,6 +2,9 @@
     position: fixed;
     width: 100%;
     background-color: black;
+    border-bottom: 5px solid purple;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .header {
@@ -38,7 +41,7 @@
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(173, 172, 173, .68);
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .menu_button__hamburger::before,
@@ -106,7 +109,7 @@
     font-size: 34px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .menu_button {
         display: none;
     }
@@ -122,7 +125,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .navigation_menu {
         padding-top: 119px;
         padding-bottom: 5px;
@@ -149,6 +152,10 @@
     .navigation_menu.open li {
         transition: all 0.5s;
         transform: scale(1);
+    }
+    .navigation_menu.open li>a:hover {
+        color: purple;
+        transition: all 0.5s;
     }
     .navigation_menu li {
         width: 100%;
