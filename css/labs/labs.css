@@ -1,0 +1,21 @@
+.onload-time {
+    position: absolute;
+}
+
+.row-header,
+.col-header {
+    background: royalblue;
+    color: black;
+}
+
+.table {
+    background: black;
+}
+
+.tr-odd {
+    background-color: white;
+}
+
+.tr-even {
+    background-color: grey;
+}

@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 0.5s all;
+    color: purple;
+    text-decoration: underline;
+}
+
+.accordion {
+    background-color: rgb(253, 222, 240);
+}
+
+.accordion-button {
+    background-color: rgb(253, 222, 240);
+}
+
+.accordion-button.collapsed {
+    background-color: rgb(253, 222, 240);
+    color: #8d8d8d;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: purple;
+    color: white;
+}
+
+.accordion-button:focus {
+    box-shadow: unset;
+}
+
+.accordion-item {
+    border: 1px solid purple;
+    background-color: rgb(253, 222, 240);
+}
+
+.wrapper {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}

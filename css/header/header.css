@@ -1,4 +1,5 @@
 .container_header {
+    z-index: 100;
     position: sticky;
     top: 0;
     width: 100%;
@@ -18,7 +19,6 @@
 }
 
 .header_top_area {
-    color: #8d8d8d;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -110,11 +110,20 @@
 }
 
 .navigation_menu li>a {
-    transition: all 0.5s;
     text-decoration: none;
-    color: #8d8d8d;
     margin-left: 20px;
     font-size: 34px;
+}
+
+.nav-button {}
+
+.nav-button:active {
+    text-decoration: underline purple;
+}
+
+.nav-button:hover:not(.active) {
+    color: purple;
+    transition: ease-in-out 0.5s;
 }
 
 @media (min-width: 769px) {
@@ -127,10 +136,7 @@
     .navigation_menu {
         display: inline-flex;
     }
-    .navigation_menu li>a:hover {
-        color: purple;
-        transition: all 0.5s;
-    }
+    .navigation_menu li>a:hover {}
 }
 
 @media (max-width: 768px) {
