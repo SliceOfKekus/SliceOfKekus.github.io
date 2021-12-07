@@ -115,15 +115,16 @@
     font-size: 34px;
 }
 
-.nav-button {}
-
-.nav-button:active {
-    text-decoration: underline purple;
+.nav-button:hover:not(.active) {
+    border-bottom: 3px solid purple;
+    transition: none;
 }
 
-.nav-button:hover:not(.active) {
+.nav-button.active {
+    transition: all 0.1s;
+    border: 2px solid purple;
     color: purple;
-    transition: ease-in-out 0.5s;
+    border-radius: 10px;
 }
 
 @media (min-width: 769px) {
@@ -136,7 +137,6 @@
     .navigation_menu {
         display: inline-flex;
     }
-    .navigation_menu li>a:hover {}
 }
 
 @media (max-width: 768px) {
