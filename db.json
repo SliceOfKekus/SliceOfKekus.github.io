@@ -1,4 +1,5 @@
-[
+{
+  "comments": [
   {    
     "id": 1,
     "name": "SliceOfKekus",
@@ -60,3 +61,4 @@
     "body": "Your CV is nuts, but you're in Russia. Sorry =("
   }
 ]
+}
