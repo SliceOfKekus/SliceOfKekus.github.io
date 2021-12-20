@@ -1,29 +1,40 @@
 {
   "comments": [
     {
+      "pack": 1,
       "id": 1,
       "name": "SliceOfKekus",
       "body": "What can I say? nice projects. Awesome code."
     },
     {
+      "pack": 1,
       "id": 2,
       "name": "xrem",
       "body": "Actually can be better, but OK."
     },    
     {
+      "pack": 2,
       "id": 3,
       "name": "TexQ",
       "body": "some comment"
     },    
     {
+      "pack": 2,
       "id": 4,
       "name": "Pogger",
       "body": "Nice work. 7 out of 10."
     },    
     {
+      "pack": 3,
       "id": 5,
       "name": "Forky",
       "body": "May you coach me, please. I would like to hit gc3 finally..."
+    },
+    {
+      "pack": 3,
+      "id": 6,
+      "name": "JZR",
+      "body": "Just leave a comment for you. Nothing special ;)"
     }
   ]
 }
