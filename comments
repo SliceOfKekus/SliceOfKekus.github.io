@@ -1,0 +1,62 @@
+[
+  {    
+    "id": 1,
+    "name": "SliceOfKekus",
+    "email": "sliceofkekus@icloud.com",
+    "body": "What can I say? nice projects. Awesome code."
+  },
+  {    
+    "id": 2,
+    "name": "xrem",
+    "email": "xrem@icloud.com",
+    "body": "Actually can be better, but OK."
+  },
+  {    
+    "id": 3,
+    "name": "TexQ",
+    "email": "TexQ@icloud.com",
+    "body": "Stop doing this s*it go find a job."
+  },
+  {    
+    "id": 4,
+    "name": "Pogger",
+    "email": "Pogger@icloud.com",
+    "body": "Nice work. 7 out of 10."
+  },
+  {    
+    "id": 5,
+    "name": "Forky",
+    "email": "Forky@icloud.com",
+    "body": "May you coach me, please. I would like to hit gc3 finally..."
+  },
+  {    
+    "id": 6,
+    "name": "JZR",
+    "email": "JZR@icloud.com",
+    "body": "Just leave a comment for you. Nothing special ;)"
+  },
+  {    
+    "id": 7,
+    "name": "gf",
+    "email": "gf@icloud.com",
+    "body": "Hey, wanna some... Milkshakes from McDonalds? They are kinda tasty!!!"
+  },
+  {    
+    "id": 8,
+    "name": "Greenfield",
+    "email": "Greenfield@icloud.com",
+    "body": "We've sent you a huge box of tea. Do you recive it?"
+  },
+    {    
+    "id": 9,
+    "name": "Apple",
+    "email": "Apple@icloud.com",
+    "body": "Hi! You've lost your airpods recently. Wanna buy a new one?))))"
+  },
+  {    
+    "id": 10,
+    "name": "Google",
+    "email": "Google@gmail.com",
+    "body": "Your CV is nuts, but you're in Russia. Sorry =("
+  }
+]
