@@ -9,6 +9,9 @@ function GetComments() {
         return [];
     else
         return JSON.parse(localStorage.getItem("comments"));
+
+    /*try-catch after that array.IsArray ??
+    Check wheter there are strings or not*/
 }
 
 button.onclick = () => {
